@@ -1,0 +1,1 @@
+export async function fetchFilters(){ const r = await fetch('/backend/api/getCategories.php'); return r.json(); }

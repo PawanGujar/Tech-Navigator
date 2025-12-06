@@ -1,0 +1,1 @@
+export async function fetchItems(params=''){ const r = await fetch('/backend/api/getItems.php'+(params?('?'+params):'')); return r.json(); }

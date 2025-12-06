@@ -1,0 +1,1 @@
+export function buildNavbar(){ const nav = document.createElement('nav'); nav.className='navbar'; nav.innerHTML = '<a href="/">Home</a> <a href="/categories.php">Categories</a> <a href="/compare.php">Compare</a>' ; return nav; }
